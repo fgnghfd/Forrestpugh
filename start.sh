@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #Xray版本
-AUUID=3def55bf-3af7-40fe-a871-9fe4d40c8103
+AUUID=2af5f464-ebac-4a7f-ad9e-72b99d445841
 CADDYIndexPage=https://www.free-css.com/assets/files/free-css-templates/download/page260/wavefire.zip
 VER=`wget -qO- "https://api.github.com/repos/XTLS/Xray-core/releases/latest" | sed -n -r -e 's/.*"tag_name".+?"([vV0-9\.]+?)".*/\1/p'`
 mkdir /xraybin && cd /xraybin
